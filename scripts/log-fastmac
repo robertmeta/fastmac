@@ -1,0 +1,4 @@
+#!/bin/sh
+
+LOG=/tmp/fastmac-$$.log
+tee -a $LOG | `dirname $0`/fastmac
